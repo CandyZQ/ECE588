@@ -41,6 +41,11 @@ image is combined with another image (laid on top of each other)
 
 * images tagged with 6 are direct photos of people with gas masks on. One of which the mask covers the eye and one of which the mask doesn't. This provides a starting point for blocking
 
+* blocking images with a black square/rectangle does not seem to be a very good approach
+    - Naming convention: blocked_images_[size of black rectangle]
+    - There is one md file inside each folder indicating the detection result
+    - Generally, only when half of the face are blocked, the recognition algorithm fails. Humans are able to recognize those are faces, but can hardly tell who are they. 
+
 ### Conclusions thus far
 
 The face detection software we used were able to detect faces in 
